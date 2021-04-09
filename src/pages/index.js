@@ -4,6 +4,7 @@ import App from '../components/App';
 import { headData } from '../mock/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
+import Navbar from '../components/NavBar/Navbar';
 
 export default () => {
   const { title, lang, description } = headData;
@@ -16,6 +17,7 @@ export default () => {
         <html lang={lang || 'en'} />
         <meta name="description" content={description || 'Gatsby Simplefolio'} />
       </Helmet>
+      <Navbar/>
       <App />
     </>
   );
