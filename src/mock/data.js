@@ -53,6 +53,15 @@ export const projectsData = [
     url: 'https://dilip-memorygame.netlify.app/',
     repo: 'https://github.com/hiiamdilip/memoryGame', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'project3.jpg',
+    title: 'Course Ecom',
+    info: 'Side - Project',
+    info2: 'Course e-commerce webapp with Snipcart, Formspree integration and many more fetaures. This project is in progress',
+    url: 'https://dilip-ecom.netlify.app/',
+    repo: 'https://github.com/hiiamdilip/react-gatsby-ecom', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
