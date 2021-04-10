@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 import GithubButtons from '../GithubButtons/GithubButtons';
+import Title from '../Title/Title';
 
 import { githubButtons } from '../../mock/data';
 
@@ -12,8 +13,10 @@ const Footer = () => {
   const { isEnabled } = githubButtons;
 
   return (
-    <footer className="footer navbar-static-bottom">
+    <footer id="footer" className="footer navbar-static-bottom">
       <Container>
+        <Title title="Get In Touch" />
+        <p>Would you like to work with me? Awesome! Let’s connect!</p>
         <span className="back-to-top">
           <Link to="hero" smooth duration={1000}>
             <i className="fa fa-angle-up fa-2x" aria-hidden="true" />

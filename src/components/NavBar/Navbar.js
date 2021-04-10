@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Link } from 'gatsby';
 import logo from '../../images/profile2.jpg';
 
@@ -35,9 +36,7 @@ export default class Navbar extends Component {
                         </li>
 
                         <li className="nav-item">
-                            <Link to="/contact" className="nav-link text-dark font-weight-bold">
-                                    Contact
-                            </Link>
+                            <AnchorLink className="nav-link text-dark font-weight-bold" href="#footer">Contact</AnchorLink>
                         </li>
                     </ul>
                 </div>
