@@ -7,34 +7,58 @@ import "../../style/style.css";
 
 export default class Navbar extends Component {
     
+    state={
+        navbarState:false,
+        navbarClass: "collapse navbar-collapse",
+        menus: [{
+            id:1,
+            text: "Home",
+            url: '/',
+        }, {
+            id:2,
+            text: "About",
+            url: '/about',
+        }, {
+            id:3,
+            text: "Projects",
+            url: '/projects',
+        }]
+    }
+
+    myToggler = () => {
+        this.state.navbarState ? this.setState({
+            navbarState: false,
+            navbarClass: "collapse navbar-collapse"
+        }) : this.setState({
+            navbarState: true,
+            navbarClass: "collapse navbar-collapse show"
+        })
+    }
+    
     render() {
         return (
             <nav className="navbar navbar-expand-sm bg-theme text-white">
                 <Link to="/" className="navbar-brand ml-5">
                     <img src={logo} alt="logo goes here" width="40px"/>
                 </Link>
-                
-                <div className="collapse navbar-collapse">
+                <button className="navbar-toggler" type="button" onClick={this.myToggler}>
+                    <span className="text-dark font-weight-bold">menu</span>
+                </button>
+
+
+                <div className={this.state.navbarClass}>
                     <ul className="navbar-nav ml-auto mr-5">
+                        {this.state.menus.map(menu => {
+                            return (
+                                <li key={menu.id} className="nav-item">
+                                    <Link to={menu.url} className="nav-link text-dark font-weight-bold">
+                                        {menu.text}
+                                    </Link>
+                                </li>
+                            )
+                        })}
                         
-                        <li className="nav-item">
-                            <Link to="/" className="nav-link text-dark font-weight-bold">
-                                    Home
-                            </Link>
-                        </li>
                         
-                        <li className="nav-item">
-                            <Link to="/about" className="nav-link text-dark font-weight-bold">
-                                    About
-                            </Link>
-                        </li>
-
-                        <li className="nav-item">
-                            <Link to="/projects" className="nav-link text-dark font-weight-bold">
-                                    Projects
-                            </Link>
-                        </li>
-
                         <li className="nav-item">
                             <AnchorLink className="nav-link text-dark font-weight-bold" href="#footer">Contact</AnchorLink>
                         </li>
