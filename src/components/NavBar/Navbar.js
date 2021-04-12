@@ -41,8 +41,11 @@ export default class Navbar extends Component {
                 <Link to="/" className="navbar-brand ml-5">
                     <img src={logo} alt="logo goes here" width="40px"/>
                 </Link>
-                <button className="navbar-toggler" type="button" onClick={this.myToggler}>
-                    <span className="text-dark font-weight-bold">menu</span>
+                <button className="navbar-toggler text-uppercase font-weight-bold rounded text-dark" type="button" onClick={this.myToggler}>
+                    <span>
+                        Menu 
+                        <i class="fa fa-bars"></i>
+                    </span>
                 </button>
 
 
