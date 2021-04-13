@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: "Hey, I'm Dilip Kumar. I am Full Stack Developer working as a Senior Member Of Technical Staff at Oracle having total of more than 5.5 years of experience under my belt.",
   paragraphTwo: "I am based out of Bangalore, India.",
   paragraphThree: "I am experienced in building Java and JavaScript based webapps. I am comfortable working with web technologies like Oracle Jet, Node.js, Express.js & React.",
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'Dilip_Kumar.docx', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -86,7 +86,7 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'code',
+      name: '',
       url: 'https://leetcode.com/Dilip35kum/',
     },
   ],

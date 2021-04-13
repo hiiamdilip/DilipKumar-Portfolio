@@ -44,7 +44,7 @@ export default class Navbar extends Component {
                 <button className="navbar-toggler text-uppercase font-weight-bold rounded text-dark" type="button" onClick={this.myToggler}>
                     <span>
                         Menu 
-                        <i class="fa fa-bars"></i>
+                        <i className="fa fa-bars"></i>
                     </span>
                 </button>
 

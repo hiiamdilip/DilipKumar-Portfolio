@@ -4,6 +4,8 @@ import { PortfolioProvider } from '../context/context';
 import Navbar from '../components/NavBar/Navbar';
 import Footer from '../components/Footer/Footer';
 import Skill from '../components/Skill/Skill';
+import Education from '../components/Education/Education';
+import Development from '../components/Development/Development';
 
 import { aboutData, footerData } from '../mock/data';
 
@@ -22,6 +24,8 @@ export default function about() {
             <Navbar/>
             <About />
             <Skill/>
+            <Education/>
+            <Development/>
             <Footer />
         </PortfolioProvider>
     )
