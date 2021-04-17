@@ -86,6 +86,16 @@ export const footerData = {
     },
     {
       id: nanoid(),
+      name: 'facebook',
+      url: 'https://www.facebook.com/hiiamdilip/',
+    },
+    {
+      id: nanoid(),
+      name: 'instagram',
+      url: 'https://www.instagram.com/hiiamdilip/',
+    },
+    {
+      id: nanoid(),
       name: '',
       url: 'https://leetcode.com/Dilip35kum/',
     },
