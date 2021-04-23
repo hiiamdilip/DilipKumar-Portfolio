@@ -24,7 +24,7 @@ const Development = () => {
 
                     <div className="card">
                         <div className="card-body bg-primary">
-                            <h3 className="card-header bg-dark text-white mb-4 font-weight-bold">Brainstorming & Design</h3>
+                            <h3 className="card-header bg-dark text-white mb-4 font-weight-bold">Design</h3>
                             <h4 className="card-subtitle mb-4 font-weight-bold text-warning">Problem Solving</h4>
                             <p className="card-text text-white">In this step I take up each atomic task and find the best approach to tackle the problem and discuss multiple ideas with team members and create a rough design for both front-end and back-end tasks.</p>
                         </div>

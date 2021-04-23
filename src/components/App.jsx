@@ -6,6 +6,7 @@ import Footer from './Footer/Footer';
 import Skill from './Skill/Skill';
 import Education from './Education/Education';
 import Development from './Development/Development';
+import Certificates from './Certificates/Certificates';
 
 import { PortfolioProvider } from '../context/context';
 
@@ -31,6 +32,7 @@ function App() {
       <Skill/>
       <Education />
       <Development />
+      <Certificates />
       <Projects />
       <Footer />
     </PortfolioProvider>
