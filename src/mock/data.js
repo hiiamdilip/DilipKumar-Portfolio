@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project1.jpg',
+    img: 'ccw.jpg',
     title: 'Cisco Commerce Workplace',
     info: 'Cisco - Project',
     info2: 'CCW is responsible for quote to order process, used by Cisco partners and end customers for buying Cisco Products, Services and Solutions.',
@@ -37,7 +37,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project2.jpg',
+    img: 'em.jpg',
     title: 'Enterprise Manager & Cloud Control',
     info: 'Oracle - Project',
     info2: 'A complete cloud lifecycle management solution enabling customers to quickly set up, manage, and support enterprise clouds and traditional Oracle IT environments from applications to disk',
@@ -55,8 +55,8 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project3.jpg',
-    title: 'Course Ecom',
+    img: 'ecom.jpg',
+    title: 'Course E-commerce',
     info: 'Side - Project',
     info2: 'Course e-commerce webapp with Snipcart, Formspree integration and many more fetaures. This project is in progress',
     url: 'https://dilip-ecom.netlify.app/',

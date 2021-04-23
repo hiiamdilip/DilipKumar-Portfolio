@@ -65,7 +65,7 @@ const Projects = () => {
                           className="cta-btn text-color-main"
                           href={repo}
                         >
-                          Source Code
+                          {(repo === "") ? "" : "Source Code"}
                         </a>
                       )}
                     </div>
