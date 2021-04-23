@@ -20,45 +20,45 @@ const Certificates = () => {
       <Container>
         <Title title="Certificates" />
         
-        <div class="card-deck">
-            <div class="card bg-theme border-primary">
-                <img class="card-img-top" src={certificate1} alt="Card image cap"/>
-                <div class="card-body">
-                    <h4 class="card-title font-weight-bold">MERN</h4>
-                    <p class="card-text text-white">Full Stack Development MERN Bootcamp issued by <span className="text-primary font-weight-bold">LearnCodeOnline.</span></p>
+        <div className="card-deck">
+            <div className="card bg-theme border-primary">
+                <img className="card-img-top" src={certificate1} alt="Card image cap"/>
+                <div className="card-body">
+                    <h4 className="card-title font-weight-bold">MERN</h4>
+                    <p className="card-text text-white">Full Stack Development MERN Bootcamp issued by <span className="text-primary font-weight-bold">LearnCodeOnline.</span></p>
                 </div>
-                <div class="card-footer">
-                    <a href={certificate1pdf} class="btn btn-primary font-weight-bold">View Certificate</a>
-                </div>
-            </div>
-            <div class="card bg-theme border-primary">
-                <img class="card-img-top" src={certificate2} alt="Card image cap"/>
-                <div class="card-body">
-                    <h4 class="card-title font-weight-bold">OCI - Developer</h4>
-                    <p class="card-text text-white">Oracle Cloud Infrastructure Developer 2020 Certified Associate issued by <span className="text-primary font-weight-bold">Oracle.</span></p>
-                </div>
-                <div class="card-footer">
-                    <a href={certificate2pdf} class="btn btn-primary font-weight-bold">View Certificate</a>
+                <div className="card-footer">
+                    <a href={certificate1pdf} target="_blank" className="btn btn-primary font-weight-bold">View Certificate</a>
                 </div>
             </div>
-            <div class="card bg-theme border-primary">
-                <img class="card-img-top" src={certificate3} alt="Card image cap"/>
-                <div class="card-body">
-                    <h4 class="card-title font-weight-bold">OCI - Foundations</h4>
-                    <p class="card-text text-white">Oracle Cloud Infrastructure Foundations 2020 Certified Associate issued by <span className="text-primary font-weight-bold">Oracle.</span></p>
+            <div className="card bg-theme border-primary">
+                <img className="card-img-top" src={certificate3} alt="Card image cap"/>
+                <div className="card-body">
+                    <h4 className="card-title font-weight-bold">OCI - Foundations</h4>
+                    <p className="card-text text-white">Oracle Cloud Infrastructure Foundations 2020 Certified Associate issued by <span className="text-primary font-weight-bold">Oracle.</span></p>
                 </div>
-                <div class="card-footer">
-                    <a href={certificate3pdf} class="btn btn-primary font-weight-bold">View Certificate</a>
+                <div className="card-footer">
+                    <a href={certificate3pdf} target="_blank" className="btn btn-primary font-weight-bold">View Certificate</a>
                 </div>
             </div>
-            <div class="card bg-theme border-primary">
-                <img class="card-img-top" src={certificate4} alt="Card image cap"/>
-                <div class="card-body">
-                    <h4 class="card-title font-weight-bold">Software Architecture</h4>
-                    <p class="card-text text-white">Software Architecture: From Developer to Architect issued by <span className="text-primary font-weight-bold">LinkedIn.</span></p>
+            <div className="card bg-theme border-primary">
+                <img className="card-img-top" src={certificate2} alt="Card image cap"/>
+                <div className="card-body">
+                    <h4 className="card-title font-weight-bold">OCI - Developer</h4>
+                    <p className="card-text text-white">Oracle Cloud Infrastructure Developer 2020 Certified Associate issued by <span className="text-primary font-weight-bold">Oracle.</span></p>
                 </div>
-                <div class="card-footer">
-                    <a href={certificate4pdf} class="btn btn-primary font-weight-bold">View Certificate</a>
+                <div className="card-footer">
+                    <a href={certificate2pdf} target="_blank" className="btn btn-primary font-weight-bold">View Certificate</a>
+                </div>
+            </div>
+            <div className="card bg-theme border-primary">
+                <img className="card-img-top" src={certificate4} alt="Card image cap"/>
+                <div className="card-body">
+                    <h4 className="card-title font-weight-bold">Software Architecture</h4>
+                    <p className="card-text text-white">Software Architecture: From Developer to Architect issued by <span className="text-primary font-weight-bold">LinkedIn.</span></p>
+                </div>
+                <div className="card-footer">
+                    <a href={certificate4pdf} target="_blank" className="btn btn-primary font-weight-bold">View Certificate</a>
                 </div>
             </div>
         </div>
