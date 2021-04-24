@@ -68,9 +68,9 @@ const Footer = () => {
               );
             })}     
         </div>
-        <hr />
+        <hr className="bg-dark" />
         <p className="footer__text text-white">
-        Copyright © {new Date().getFullYear()} - Dilip Kumar. All Rights Reserved.{' '}
+        Copyright © {new Date().getFullYear()} - Dilip Kumar. All Rights reserved.
         </p>
 
       </Container>

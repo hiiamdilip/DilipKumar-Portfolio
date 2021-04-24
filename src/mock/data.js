@@ -28,20 +28,20 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'ccw.jpg',
-    title: 'Cisco Commerce Workplace',
-    info: 'Cisco - Project',
-    info2: 'CCW is responsible for quote to order process, used by Cisco partners and end customers for buying Cisco Products, Services and Solutions.',
-    url: 'https://apps.cisco.com/Commerce/guest',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'em.jpg',
     title: 'Enterprise Manager & Cloud Control',
     info: 'Oracle - Project',
     info2: 'A complete cloud lifecycle management solution enabling customers to quickly set up, manage, and support enterprise clouds and traditional Oracle IT environments from applications to disk',
     url: 'https://www.oracle.com/in/enterprise-manager/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'ccw.jpg',
+    title: 'Cisco Commerce Workplace',
+    info: 'Cisco - Project',
+    info2: 'CCW is responsible for quote to order process, used by Cisco partners and end customers for buying Cisco Products, Services and Solutions.',
+    url: 'https://apps.cisco.com/Commerce/guest',
     repo: '', // if no repo, the button will not show up
   },
   {

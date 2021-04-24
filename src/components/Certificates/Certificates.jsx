@@ -24,11 +24,11 @@ const Certificates = () => {
             <div className="card bg-dark border-primary">
                 <img className="card-img-top" src={certificate1} alt="Card image cap"/>
                 <div className="card-body">
-                    <h4 className="card-title font-weight-bold text-primary">MERN</h4>
+                    <h4 className="card-title font-weight-bold text-primary">MERN Stack</h4>
                     <p className="card-text text-white">Full Stack Development MERN Bootcamp issued by <span className="text-primary font-weight-bold">LearnCodeOnline.</span></p>
                 </div>
                 <div className="card-footer">
-                    <a href={certificate1pdf} target="_blank" className="btn btn-primary font-weight-bold">View Certificate</a>
+                    <a href={certificate1pdf} target="_blank" className="btn btn-lg btn-primary font-weight-bold">View Certificate</a>
                 </div>
             </div>
             <div className="card bg-dark border-primary">
@@ -38,7 +38,7 @@ const Certificates = () => {
                     <p className="card-text text-white">Oracle Cloud Infrastructure Foundations 2020 Certified Associate issued by <span className="text-primary font-weight-bold">Oracle.</span></p>
                 </div>
                 <div className="card-footer">
-                    <a href={certificate3pdf} target="_blank" className="btn btn-primary font-weight-bold">View Certificate</a>
+                    <a href={certificate3pdf} target="_blank" className="btn btn-lg btn-primary font-weight-bold">View Certificate</a>
                 </div>
             </div>
             <div className="card bg-dark border-primary">
@@ -48,7 +48,7 @@ const Certificates = () => {
                     <p className="card-text text-white">Oracle Cloud Infrastructure Developer 2020 Certified Associate issued by <span className="text-primary font-weight-bold">Oracle.</span></p>
                 </div>
                 <div className="card-footer">
-                    <a href={certificate2pdf} target="_blank" className="btn btn-primary font-weight-bold">View Certificate</a>
+                    <a href={certificate2pdf} target="_blank" className="btn btn-lg btn-primary font-weight-bold">View Certificate</a>
                 </div>
             </div>
             <div className="card bg-dark border-primary">
@@ -58,7 +58,7 @@ const Certificates = () => {
                     <p className="card-text text-white">Software Architecture: From Developer to Architect issued by <span className="text-primary font-weight-bold">LinkedIn.</span></p>
                 </div>
                 <div className="card-footer">
-                    <a href={certificate4pdf} target="_blank" className="btn btn-primary font-weight-bold">View Certificate</a>
+                    <a href={certificate4pdf} target="_blank" className="btn btn-lg btn-primary font-weight-bold">View Certificate</a>
                 </div>
             </div>
         </div>
