@@ -43,7 +43,7 @@ const Projects = () => {
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
-                        <h3 className="btn btn-info p-2 btn-lg">
+                        <h3 className="btn btn-info p-2 btn-lg disabled font-weight-bold">
                           {info || ''}
                         </h3>
                         <p className="mb-4">{info2 || 

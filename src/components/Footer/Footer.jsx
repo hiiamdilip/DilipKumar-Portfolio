@@ -46,11 +46,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <span className="back-to-top">
-          <Link to="navbar" smooth duration={1000}>
-            <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
-          </Link>
-        </span>
+        
         <div className="social-links">
           {networks &&
             networks.map((network) => {
@@ -68,9 +64,14 @@ const Footer = () => {
               );
             })}     
         </div>
-        <hr className="bg-dark" />
-        <p className="footer__text text-white">
-        Copyright © {new Date().getFullYear()} - Dilip Kumar. All Rights reserved.
+        <hr />
+        <p className="text-white d-flex justify-content-between">
+          Copyright © {new Date().getFullYear()} - Dilip Kumar. All Rights reserved.
+          <span>
+            <Link to="navbar" smooth duration={1000}>
+              <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
+            </Link>
+          </span>
         </p>
 
       </Container>
