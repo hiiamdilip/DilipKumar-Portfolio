@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
-import heroGif from '../../images/2.gif'
+import heroGif from '../../images/1.gif'
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -48,7 +48,7 @@ const Header = () => {
           </Col>
 
           <Col md={6} sm={12}>
-            <img src={heroGif}/>
+            <img className="d-none d-sm-block" src={heroGif}/>
           </Col>
           
         </Row>
