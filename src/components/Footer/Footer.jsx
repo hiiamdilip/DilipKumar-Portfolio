@@ -3,11 +3,9 @@ import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
-import { SiLeetcode } from "react-icons/si";
 
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);
-  const { networks } = footer;
 
   return (
     <footer id="footer" className="footer navbar-static-bottom">
@@ -47,23 +45,6 @@ const Footer = () => {
             </div>
         </div>
         
-        <div className="social-links">
-          {networks &&
-            networks.map((network) => {
-              const { id, name, url } = network;
-              return (
-                <a
-                  key={id}
-                  href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  aria-label={name}
-                >
-                  {name ? <i className={`fa fa-${name} fa-inverse`} />: <SiLeetcode/>}
-                </a>
-              );
-            })}     
-        </div>
         <hr />
         <p className="text-white d-flex justify-content-between">
           Copyright © {new Date().getFullYear()} - Dilip Kumar. All Rights reserved.
