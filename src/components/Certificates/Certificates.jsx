@@ -21,7 +21,7 @@ const Certificates = () => {
         <Title title="Certificates" />
         
         <div className="card-deck">
-            <div className="card bg-theme border-dark">
+            <div className="card border-dark" style={{backgroundColor: '#00d2ff'}}>
                 <img className="card-img-top" src={certificate1} alt="Card image cap"/>
                 <div className="card-body">
                     <h4 className="card-title font-weight-bold text-dark">MERN Stack</h4>
@@ -31,7 +31,7 @@ const Certificates = () => {
                     <a href={certificate1pdf} target="_blank" className="btn btn-lg btn-dark font-weight-bold">View Certificate</a>
                 </div>
             </div>
-            <div className="card bg-theme border-dark">
+            <div className="card border-dark" style={{backgroundColor: '#00d2ff'}}>
                 <img className="card-img-top" src={certificate3} alt="Card image cap"/>
                 <div className="card-body">
                     <h4 className="card-title font-weight-bold text-dark">OCI - Foundations</h4>
@@ -41,7 +41,7 @@ const Certificates = () => {
                     <a href={certificate3pdf} target="_blank" className="btn btn-lg btn-dark font-weight-bold">View Certificate</a>
                 </div>
             </div>
-            <div className="card bg-theme border-dark">
+            <div className="card border-dark" style={{backgroundColor: '#00d2ff'}}>
                 <img className="card-img-top" src={certificate2} alt="Card image cap"/>
                 <div className="card-body">
                     <h4 className="card-title font-weight-bold text-dark">OCI - Developer</h4>
@@ -51,7 +51,7 @@ const Certificates = () => {
                     <a href={certificate2pdf} target="_blank" className="btn btn-lg btn-dark font-weight-bold">View Certificate</a>
                 </div>
             </div>
-            <div className="card bg-theme border-dark">
+            <div className="card border-dark" style={{backgroundColor: '#00d2ff'}}>
                 <img className="card-img-top" src={certificate4} alt="Card image cap"/>
                 <div className="card-body">
                     <h4 className="card-title font-weight-bold text-dark">Software Architecture</h4>
