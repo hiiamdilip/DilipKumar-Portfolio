@@ -1,7 +1,12 @@
 .bg-theme{
-    background-color: #00cdac;
+    background-color: #00d2ff;
   }
 
-.bg-theme-secondary{
-  background-color: #00cdac;
+@media (max-width: 992px) {
+  .tablet-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    grid-gap: 20px;
+  }
 }

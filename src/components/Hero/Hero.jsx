@@ -30,10 +30,10 @@ const Header = () => {
         <Row >
           <Col md={6} sm={12}>
               <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-                <h1 className="hero-title">
-                  <h1 style={{fontSize: 50}}>{title || 'Hi, my name is'}{' '} <span className="text-color-main">{name || 'Your Name'}</span></h1>
+                <div className="hero-title">
+                  <h1 style={{fontSize: 45}}>{title || 'Hi, my name is'}{' '} <span className="text-color-main">{name || 'Your Name'}</span></h1>
                   <h1 className="mt-4">{subtitle || "I'm the Unknown Developer."}</h1>
-                </h1>
+                </div>
               </Fade>
             
               <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
@@ -63,7 +63,7 @@ const Header = () => {
                   target="_blank"
                   aria-label={name}
                 >
-                  {name ? <i className={`fa fa-${name} fa-inverse text-primary`} />: <SiLeetcode className="text-primary"/>}
+                  {name ? <i className={`fa fa-${name} fa-inverse text-dark`} />: <SiLeetcode className="text-dark"/>}
                 </a>
               );
             })}     

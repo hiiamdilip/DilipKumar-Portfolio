@@ -6,6 +6,7 @@ import Footer from './Footer/Footer';
 import Skill from './Skill/Skill';
 import Education from './Education/Education';
 import Development from './Development/Development';
+import Quote from './Quote/Quote';
 import Certificates from './Certificates/Certificates';
 
 import { PortfolioProvider } from '../context/context';
@@ -29,9 +30,10 @@ function App() {
     <PortfolioProvider value={{ hero, about, projects, footer }}>
       <Hero />
       <About />
+      <Development />
+      <Quote />
       <Skill/>
       <Education />
-      <Development />
       <Certificates />
       <Projects />
       <Footer />

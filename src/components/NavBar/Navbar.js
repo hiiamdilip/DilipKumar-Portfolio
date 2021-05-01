@@ -13,15 +13,19 @@ export default class Navbar extends Component {
         menus: [{
             id:1,
             text: "Home",
-            url: '/',
+            url: '#hero',
         }, {
             id:2,
             text: "About",
-            url: '/about',
+            url: '#about',
         }, {
             id:3,
+            text: "Certificates",
+            url: '#certificates',
+        },{
+            id:4,
             text: "Projects",
-            url: '/projects',
+            url: '#projects',
         }]
     }
 
@@ -37,34 +41,31 @@ export default class Navbar extends Component {
     
     render() {
         return (
-            <nav className="navbar navbar-expand-sm bg-theme text-white">
-                <Link to="/" className="navbar-brand ml-5">
+            <nav className="navbar fixed-top navbar-expand-sm bg-dark text-white">
+                <AnchorLink href="#hero" className="navbar-brand ml-5">
                     {/* <img src={logo} alt="logo goes here" width="40px"/> */}
-                    <h3 className="text-dark font-weight-bold">DK</h3>
-                </Link>
-                <button className="navbar-toggler text-uppercase font-weight-bold rounded text-dark" type="button" onClick={this.myToggler}>
-                    <span>
-                        Menu 
+                    <h1 className="text-white font-weight-bold">DK</h1>
+                </AnchorLink>
+                <button className="navbar-toggler text-uppercase font-weight-bold rounded text-white" type="button" onClick={this.myToggler}>
+                    <h2>
                         <i className="fa fa-bars"></i>
-                    </span>
+                    </h2>
                 </button>
 
 
                 <div className={this.state.navbarClass}>
-                    <ul className="navbar-nav ml-auto mr-5">
+                    <ul className="navbar-nav ml-auto mr-5 p-2">
                         {this.state.menus.map(menu => {
                             return (
-                                <li key={menu.id} className="nav-item">
-                                    <Link to={menu.url} className="nav-link text-dark font-weight-bold">
-                                        {menu.text}
-                                    </Link>
+                                <li key={menu.id} className="nav-item px-3">
+                                    <AnchorLink className="nav-link text-white font-weight-bold" href={menu.url}>{menu.text}</AnchorLink>
                                 </li>
                             )
                         })}
                         
                         
                         <li className="nav-item">
-                            <AnchorLink className="nav-link text-dark font-weight-bold" href="#footer">Contact</AnchorLink>
+                            <AnchorLink className="nav-link text-white font-weight-bold" href="#footer">Contact</AnchorLink>
                         </li>
                     </ul>
                 </div>
