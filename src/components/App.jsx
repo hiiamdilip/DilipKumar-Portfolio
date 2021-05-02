@@ -34,8 +34,8 @@ function App() {
       <Quote />
       <Skill/>
       <Education />
-      <Certificates />
       <Projects />
+      <Certificates />
       <Footer />
     </PortfolioProvider>
   );

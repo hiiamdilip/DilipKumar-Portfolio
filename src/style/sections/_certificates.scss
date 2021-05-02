@@ -1,0 +1,8 @@
+#certificates {
+    padding-top: 6rem;
+    margin-bottom: 8rem;
+
+    @include respond(phone) {
+        margin-bottom: 0rem;
+    }
+}  

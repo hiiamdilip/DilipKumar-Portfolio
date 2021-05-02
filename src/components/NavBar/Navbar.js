@@ -20,12 +20,12 @@ export default class Navbar extends Component {
             url: '#about',
         }, {
             id:3,
-            text: "Certificates",
-            url: '#certificates',
-        },{
-            id:4,
             text: "Projects",
             url: '#projects',
+        }, {
+            id:4,
+            text: "Certificates",
+            url: '#certificates',
         }]
     }
 

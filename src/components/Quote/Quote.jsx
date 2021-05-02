@@ -7,7 +7,7 @@ const Quote = () => {
   return (
     <section id="quote" className="bg-theme text-center">
       <Container>
-        <div className="row py-lg-3">
+        <div className="row py-lg-5">
             <div className="col-lg-9">
                 <h1 className="text-left">"When I’m working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong."</h1>
             </div>
