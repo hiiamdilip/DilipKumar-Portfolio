@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import { Link } from 'gatsby';
 import logo from '../../images/profile2.jpg';
 
 import "../../style/style.css";
@@ -46,7 +45,7 @@ export default class Navbar extends Component {
                     {/* <img src={logo} alt="logo goes here" width="40px"/> */}
                     <h1 className="text-white font-weight-bold">DK</h1>
                 </AnchorLink>
-                <button className="navbar-toggler text-uppercase font-weight-bold rounded text-white" type="button" onClick={this.myToggler}>
+                <button className="navbar-toggler text-white" type="button" onClick={this.myToggler}>
                     <h2>
                         <i className="fa fa-bars"></i>
                     </h2>
