@@ -17,10 +17,9 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile1.jpg',
-  paragraphOne: "Hey, I'm Dilip Kumar. I am Full Stack Developer working as a Senior Member Of Technical Staff at Oracle having total of more than 5.5 years of experience under my belt.",
-  paragraphTwo: "I am from Bangalore, India.",
-  paragraphThree: "I am experienced in building Java and JavaScript based webapps. I am comfortable working with web technologies like Oracle Jet, Node.js, Express.js & React.",
+  paragraphOne: "Hey, I'm Dilip Kumar. I am from Bangalore, India. I am Full Stack Developer working as a Senior Member Of Technical Staff at Oracle having total of more than 5.5 years of experience under my belt.",
+  paragraphTwo: "I am experienced in building Java and JavaScript based webapps. I am comfortable working with web technologies like Oracle Jet, Node.js, Express.js & React.",
+  paragraphThree: "My hobby is reading interesting and knowledgeable books in my free time. I read non-fiction and self-development books.",
   resume: 'Dilip_Kumar.docx', // if no resume, the button will not show up
 };
 
