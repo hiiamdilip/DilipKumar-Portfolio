@@ -4,11 +4,11 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import PortfolioContext from '../../context/context';
 import resume1 from '../../images/resume.pdf';
-import img from '../../images/profile1.jpg';
+import AboutImg from '../Image/AboutImage';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const {paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const {img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -30,8 +30,8 @@ const About = () => {
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
-              <div>
-                <img className="about-image" alt="profile picture" src={img} />
+              <div className="about-wrapper__image">
+                <AboutImg alt="profile picture" filename={img} />
               </div>
             </Fade>
           </Col>

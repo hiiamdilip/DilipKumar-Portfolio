@@ -2,12 +2,6 @@
     background-color: #00d2ff;
   }
 
-.about-image {
-  width: 500px;
-  height: 350px;
-  border-radius: 8px;
-}
-
 @media (max-width: 992px) {
   .tablet-grid {
     display: grid;
