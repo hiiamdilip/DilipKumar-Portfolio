@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import logo from '../../images/profile2.jpg';
+//import logo from '../../images/profile2.jpg';
 
 import "../../style/style.css";
 

@@ -11,14 +11,14 @@ export const headData = {
 export const heroData = {
   title: 'Hello, I’m',
   name: 'Dilip Kumar',
-  subtitle: 'A passionate learner and A Full Stack Web Developer',
+  subtitle: 'A passionate learner and A Full Stack Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile1.jpg',
-  paragraphOne: "Hey, I'm Dilip Kumar. I am from Bangalore, India. I am Full Stack Developer working as a Senior Member Of Technical Staff at Oracle having total of more than 5.5 years of experience under my belt.",
+  paragraphOne: "Hey, I'm Dilip Kumar. I am from Bangalore, India. I am Full Stack Developer working as a Senior Member Of Technical Staff at Oracle having total of more than 6 years of experience under my belt.",
   paragraphTwo: "I am experienced in building Java and JavaScript based webapps. I am comfortable working with web technologies like Oracle Jet, Node.js, Express.js & React.",
   paragraphThree: "My hobby is reading interesting and knowledgeable books in my free time. I read non-fiction and self-development books.",
   resume: 'Dilip_Kumar.docx', // if no resume, the button will not show up
@@ -61,7 +61,7 @@ export const projectsData = [
     img: 'ecom.jpg',
     title: 'Course E-commerce',
     info: 'Side - Project',
-    info2: 'Course e-commerce webapp with Snipcart, Formspree integration and many more fetaures. This project is in progress',
+    info2: 'Course e-commerce webapp with Snipcart, Contentful, Formspree integration and many more fetaures. This project is in progress',
     tech: 'React, Gatsby',
     url: 'https://dilip-ecom.netlify.app/',
     repo: 'https://github.com/hiiamdilip/react-gatsby-ecom', // if no repo, the button will not show up
