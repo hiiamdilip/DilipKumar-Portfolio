@@ -22,7 +22,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Simplefolio`,
+        name: `Dilip Kumar | Software Developer`,
         short_name: `Simplefolio`,
         start_url: `/`,
         background_color: `#fff`,

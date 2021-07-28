@@ -58,6 +58,16 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'tic-tac-toe.jpg',
+    title: 'Tic-Tac-Toe Game',
+    info: 'Fun - Project',
+    info2: 'A classical Tic-tac-toe game. It\'s a game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner.',
+    tech: 'React',
+    url: 'https://dilip-tictactoe.netlify.app/',
+    repo: 'https://github.com/hiiamdilip/react-bootcamp-tictactoe', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'ecom.jpg',
     title: 'Course E-commerce',
     info: 'Side - Project',
